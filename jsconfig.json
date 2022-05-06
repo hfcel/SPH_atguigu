@@ -1,0 +1,10 @@
+{
+    // 配置：用 @ 代替src文件夹
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@/*": ["src/*"]
+        }
+    },
+    "exclude": ["node_modules","dist"]
+}
